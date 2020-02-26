@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Christ Apostolic Church</title>
+    <style>
+        .nav {
+            list-style-type: none;
+            margin: 10px;
+            padding: 0px;
+            color: white;
+            overflow: hidden;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: black;
+        }
+        
+        .start {
+            text-decoration: none;
+            margin: 10px;
+            padding: 0px;
+            color: white;
+            overflow: hidden;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: black;
+        }
+        /* style for navigation bar and dropdown */
+        
+        li a,
+        .dropbutton {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        .dropdown:hover .dropbutton,
+        a:hover {
+            background-color: blue;
+        }
+        
+        .content {
+            display: none;
+            min-width: 150px;
+            background-color: black;
+            position: absolute;
+            padding-left: 15px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        .content a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 15px 10px;
+            text-align: center;
+        }
+        
+        .dropdown:hover .content {
+            display: block;
+        }
+        
+        li.dropdown {
+            float: right;
+            display: "inline-block";
+        }
+        
+        .content a:hover {
+            background-color: blue;
+        }
+        
+        .right {
+            float: right;
+            line-height: 35px;
+            width: 30%;
+        }
+        
+        @media screen and (max-width: 600px) {
+            li,
+            .right {
+                float: none;
+            }
+        }
+        
+        div {
+            margin-bottom: 10px;
+            padding: 10px
+        }
+        
+        .foot {
+            padding-top: 10px;
+            font-variant: small-caps;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: gray;
+            color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 15px;
+        }
+        
+        ol {
+            font-variant: small-caps;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            list-style-type: none;
+            display: grid;
+            width: 25%;
+        }
+        
+        span {
+            color: blue;
+        }
+        
+        img {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .container {
+            background-image: url(img/bible.jpg);
+            background-position: center;
+            color: black;
+            text-align: center;
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: larger;
+        }
+        
+        .center {
+            background-image: url(img/girl.jpg);
+            background-position: center;
+            width: 45%;
+            color: white;
+            margin-right: 10px;
+            margin-left: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medim;
+            float: right;
+            margin-right: 20px;
+            margin-top: 35px;
+        }
+        
+        .centre {
+            background-image: url(img/rain.jpg);
+            background-position: center;
+            width: 45%;
+            margin-left: 20px;
+            color: black;
+            margin-right: 10px;
+            margin-left: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+        }
+        /* .center {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            width: 100%;
+            text-align: center;
+            font-size: larger;
+            margin-right: 40px;
+            margin-left: 50px;
+        } */
+        /*         
+        .logo {
+            width: 100%;
+            height: auto;
+            opacity: 0.6;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="start">
+        <img style="margin: 10px; float: left;" src="img/cacsa2.jpg">
+        <h3 style="text-align: center;">Christ Apostolic Church Student Association (CACSA) </h3>
+        <h4 style="text-align: center;">City of Refuge District, DCC 31, Mushin, Lagos state</h4>
+        <ul class="nav ">
+
+            <li style="float: left "><a href="index.html ">HOME</a></li>
+            <li style="float: left; "><a href=" ">PROGRAMS</a></li>
+            <li style="float: left;"><a href="CAC-about.html">ABOUT US</a></li>
+            <li style="float: left;"><a href="#event">EVENTS</a></li>
+            <li class="dropdown"><a href="" class="dropbutton">CONTACT US</a>
+                <div class="content">
+                    <p>08102515228</p>
+                    <p>09062117552</p>
+                    <p> 09053566471</p>
+                </div>
+            </li>
+            <div style="float: left; "></div>
+        </ul>
+
+    </div>
+    <div class="container">
+
+        <ul>
+            <H1>Welcome to Christ Apostolic Church</H1>
+            <h1>City of Refuge</h1>
+            <P><br></P>
+            <p><br></p>
+            <h3> Come and experience God with us <br>as he showers his blessing upon us every Sunday<br><br> Time: 8:00am -12:00pm
+            </h3>
+
+        </ul>
+    </div>
+    <span id="event" style="font-variant: small-caps; font-size: x-large;">Upcoming Events:</span>
+    <div class="center">
+        <img style="width: 60px; height: 60px;" src="img/logo.jpg "><span style="font-size: xx-large; color: white;">City of Refuge</span> (CACSA) DCC 31, Mushin, Lagos state
+        <p style="font-family: Script MT Bold; text-align: center;"> The Sisters of the above church cordially invites you to her district sister's congress <br><br> Tagged:
+            <h2 style="font-family: Script MT Bold; text-align: center;">A WOMAN LIKE ESTHER</h2>
+        </p>
+        <p> Date: Monday 15th- Sunday 22nd August 2020</p>
+        <p> Come and experience God in our midst and remain blessed<br><br>
+            <p style="text-align: center;"> Time:<br>Monday - Thursday(Revival): 6:00pm -8:00pm <br>Friday Night(Variety-Night):&nbsp;&nbsp; 11:00pm - 2:00am<br> Thansgiving Sunday: 9:00am - 2:00pm</p>
+        </p>
+
+    </div>
+    <div class="centre">
+        <img style="width: 60px; height: 60px;" src="img/logo.jpg "><span style="font-size: xx-large; color: black;">City of Refuge</span> (CACSA) DCC 31, Mushin, Lagos state
+        <p style="font-family: Script MT Bold; text-align: center;">Cordially invites you to her 25th annual annivesary <br><br> Tagged:
+            <h2 style="font-family: Script MT Bold; text-align: center;">SHOWERS OF BLESSING</h2>
+        </p>
+        <p> Date: Monday 15th- Sunday 22nd July 2020</p>
+        <p> Come and experience God in our midst and remain blessed<br><br>
+            <p style="text-align: center;"> Time:<br>Monday - Thursday(Revival): 6:00pm -8:00pm <br>Friday Night(Praise-Night):&nbsp;&nbsp; 11:00pm - 2:00am<br> Sunday (Annivesary thansgiving): 9:00am - 2:00pm</p>
+        </p>
+
+    </div>
+    <div class="foot ">
+        <ol class="right">
+            <lt style="color:black; font-size:x-large; ">For more enquiries</lt>
+            <li>Contact </li>
+            <li><a href=" " style="color: white; padding-left: 0px; ">Locate Us</a></li>
+
+        </ol>
+        <ol class="right">
+            <lt style="color:black; font-size:x-large; ">For Prayer and Counselling </lt>
+            <li>Pastor Ogunfowokan: 08028095618</li>
+            <li>Pastor Ibikunle: 08036830023</li>
+            <li>Pastor Fayode: 08059843743</li>
+
+        </ol>
+        <ol>
+            <lt style="color:black; font-size:x-large; ">Social Media </lt>
+            <li><a href="https://web.facebook.com/johnson.ibikunle.5" target="blank" style="color: white; ">Facebook</a></li>
+            <li><a href=" " style="color: white; ">Twitter</a></li>
+            <li><a href=" " style="color: white; ">whatsapp</a></li>
+        </ol>
+        <h5 style="text-align: center; "><img src="img/logo.jpg "><br> copywrite &copy; City Of Refuge District. all right reserved</h5>
+    </div>
+</body>
+
+</html>
